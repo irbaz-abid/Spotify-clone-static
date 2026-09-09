@@ -10,7 +10,7 @@
     height: 100vh;
 }
 .sidebar{
-    background-color: #121212;
+    background-color:yellowgreen;
     width: 330px;
     border-radius: 1rem;
 }
@@ -26,4 +26,33 @@
     bottom: 0;
     width: 100%;
     height: 72px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option{
+    line-height:  2.5rem;
+    opacity: 0.5;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option i{
+     font-size: 1.25rem
+}
+.nav-option a{
+      font-size: 1rem;
+      margin-left: 1rem;
+}
+.nav-option:hover{
+    opacity: 1;
 }
