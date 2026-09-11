@@ -1,6 +1,6 @@
 *{
     font-family: Montserrat;
-    background-color: #000;
+   background-color: #000;
     color: #fff;
     margin: 0;
     overflow: hidden;
@@ -8,6 +8,7 @@
 .main{
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 .sidebar{
     background-color:yellowgreen;
@@ -56,3 +57,35 @@ a{
 .nav-option:hover{
     opacity: 1;
 }
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lib-option img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+   
+ }
+.icons i{
+      margin-right: 1rem;
+      opacity: 0.7;  
+}
+.icons i:hover{
+    opacity: 1;
+}
+ 
