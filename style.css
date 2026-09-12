@@ -194,3 +194,19 @@ a{
     border-top: 2px  white solid;
     opacity: 0.3;
 }
+
+.music-palyer{
+    display: flex;
+}
+
+.album{
+    width: 25%;
+}
+
+.player{
+    width: 50%;
+}
+
+.controls{
+    width: 25%;
+}
