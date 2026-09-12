@@ -24,6 +24,7 @@ body{
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
+    padding: 0 1.5rem 0 1.5rem;
 }
 .music-palyer{
     background-color: #000;
@@ -151,4 +152,45 @@ a{
     .hide{
         display: none;
     }
+}
+
+.card{
+    background-color: #232323;
+    width: 180px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.main-content h2{
+     margin: 1.2rem 0 1.2rem 0;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 50%;
+    width: 90%;
+    border-top: 2px  white solid;
+    opacity: 0.3;
 }
