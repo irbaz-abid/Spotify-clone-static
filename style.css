@@ -204,6 +204,7 @@ a{
 
 .album{
     width: 25%;
+    display: flex;
 }
 
 .player{
@@ -256,4 +257,33 @@ a{
     border-radius: 50%;
     background-color: #1bd768;
     margin-top: -6px;
+}
+.album-image{
+    height:3.5rem;
+    border-radius: 5px;
+}
+
+.album-icons img{
+    height: 2rem;
+    margin-left: 1.7rem;
+    opacity: 0.8;
+}
+
+.album-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.album-data{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+    
+}
+.album-data p{
+    margin-top: 0.4rem;
+    opacity:0.7;
 }
