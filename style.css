@@ -213,6 +213,9 @@ a{
 
 .controls{
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .player-controls{
@@ -280,10 +283,15 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-     
-    
 }
 .album-data p{
     margin-top: 0.4rem;
     opacity:0.7;
+}
+
+
+.controls img{
+    height: 2.5rem;
+    margin-left: 0.8rem;
+    
 }
