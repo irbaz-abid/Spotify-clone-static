@@ -2,11 +2,12 @@
     font-family: Montserrat;
     
     margin: 0;
-    overflow: hidden;
+     
 }
 body{
        background-color: #000;
        color: #fff;
+       overflow: hidden;
 }
 .main{
     display: flex;
@@ -199,7 +200,6 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .album{
@@ -249,10 +249,11 @@ a{
     border-radius: 100px;
 }
 
-.progress::-webkit-slider-thumb{
+.progress::-webkit-slider-thumb{  
     appearance: none;
-
     height: 1rem;
     width: 1rem;
-    background-color: green;
+    border-radius: 50%;
+    background-color: #1bd768;
+    margin-top: -6px;
 }
